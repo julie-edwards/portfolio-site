@@ -16,18 +16,27 @@
 <script>
 	//TODO GOOGLE ANALYTICS
 </script>
-	<header>
-		<h1><a href="/"><b>Julie</b>Edwards</a></h1>
-		<ul class="social-sprites">
-			<li id="linkedin-sprite"><a href="http://www.linkedin.com/pub/julie-edwards/55/4a7/43a" target="_blank"></a></li>
-			<li id="twitter-sprite"><a href="https://twitter.com/_JulieEdwards_" target="_blank"></a></li>
+<header class="page-width">
+	<h1><a href="index.php"><strong>Julie</strong>Edwards</a></h1>
+	<ul class="social-sprites">
+		<li id="linkedin-sprite"><a href="http://www.linkedin.com/pub/julie-edwards/55/4a7/43a" target="_blank"></a></li>
+		<li id="twitter-sprite"><a href="https://twitter.com/_JulieEdwards_" target="_blank"></a></li>
+	</ul>
+	<nav>
+		<ul>
+			<li><a href="resume.php">Resume</a></li>
+			<li><a href="websites.php">Websites</a></li>
+			<li><a href="scripts.php">Scripts</a></li>
+			<li><a href="contact.php">Contact</a></li>
 		</ul>
-	</header>
-	<div id="nav-bar">Menu</div>
-	<div id="page">
+	</nav>
+</header>
 
-<div id="content">
-<h2>Portfolio</h2>
+	
+</div>
+<!-- End header include -->
+<main class="page-width resume">
+<h2>Resume</h2>
 <ul class="download-links">
 	<li><a target="_blank" href="docs/JulieEdwards-Resume.pdf">Download .pdf</a></li>
 	<li><a target="_blank" href="<docs/JulieEdwards-Resume.txt">Download .txt</a></li>
@@ -35,63 +44,64 @@
 <section>
 	<div class="section-title">
 		<h3>Skills</h3>
-	</div><!-- section title -->
+	</div>
 	<div class="section-content">
-			<p><span class="skill">Languages</span> - HTML5, CSS3, JavaScript, jQuery, PHP, SQL</p>
-			<p><span class="skill">Tools</span> - Git/GitHub, Adobe Photoshop, Adobe Illustrator</p>
-			<p><span class="skill">Expertise</span> - Cross-browser and cross-platform compatability, responsive, SEO, Chrome extensions, Wordpress
-</p>
-	</div><!-- section content -->
+		<p><span class="skill">Languages</span> - HTML5, CSS3, JavaScript, jQuery, SQL</p>
+		<p><span class="skill">Tools</span> - Cross-browser and cross-platform compatibility; CSS, JavaScript, and Canvas animations; Responsive design; Chrome extensions</p>
+	</div>
 </section>
 <section>
 	<div class="section-title">
 		<h3>Experience</h3>
-	</div><!-- section title -->
+	</div>
 	<div class="section-content">
-	    <h4>Nordstrom Direct, Interactive Web Developer (contract, The Creative Group)<span class="dates">11/13 - 1/14</span></h4>
-        <p>HTML5, CSS3, JavaScript, jQuery, Chrome Extensions, Git, Photoshop</p>
+	    <h4>Publicis Seattle, Developer<span class="dates"> 4/14 - current</span></h4>
+        <p>HTML5, CSS3, JavaScript, jQuery, Chrome extensions, Photoshop</p>
         <ul>
-            <li>Created and published new customer facing content and updated existing pages with HTML, CSS, and JS</li>
-            <li>Planned and developed a Chrome extension internal tool to help manage and assign work orders</li>
+            <li>Hand coded optimized banner ads using CSS, JavaScript, and canvas animations</li>
+            <li>Created a banner ad automation script that, for multiple ad sizes and layouts:</li>
+            <ul>
+            	<li>Lays out ad components	</li>
+            	<li>Sets font sizes and justifies text</li>
+            	<li>Writes and adjusts CSS animations</li>
+            	<li>Identifies unique characters and requests the font subset</li>
+            	<li>Reduces the build time by over 50%</li>
+            </ul>
+            <li>Designed and coded showcase websites for our team in AngularJS</li>
+            <li>Developed a Chrome extension tool to help publish ads through DoubleClick</li>
         </ul>
-		<h4>Sound Soups, Front End Web Developer<span class="dates">6/13 - 9/13</span></h4>
-		<p>HTML5, CSS3, PHP, jQuery, SEO, Responsive Design, Illustrator, Photoshop</p>
+		<h4>Nordstrom Direct, Interactive Web Developer (contract) <span class="dates">11/13 - 1/14</span></h4>
+		<p>HTML5, CSS3, JavaScript, jQuery, Chrome extensions, Git, Photoshop</p>
 		<ul>
-			<li>Designed and created fully responsive and mobile friendly website</li>
-			<li>Wrote a jQuery toggle panel plugin and other functions to organize and display site information</li>
+			<li>Created and published new customer facing content</li>
+			<li>Maintained and updated existing pages</li>
+			<li>Codeveloped a Chrome extension to help manage and assign work orders within GoToAssist</li>
 		</ul>
-		<h4>Dailey Guitars, Front End Web Developer<span class="dates">9/12 - 6/13</span></h4>
-		<p>WordPress, HTML5, CSS3, PHP, jQuery, SEO, Illustrator, Photoshop</p>
+		<h4>Freelance Web Developer<span class="dates"> 3/13 - 10/13</span></h4>
+		<p>HTML5, CSS3, PHP, jQuery, WordPress, SEO, Responsive design, Illustrator, Photoshop</p>
         <ul>
-            <li>Developed a fully hand-coded custom WordPress theme using PHP, HTML5, and JavaScript</li>
-            <li>Designed and produced original logo and branding</li>
+            <li>Developed fully hand-coded websites</li>
+            <li>Designed original logos and branding</li>
+            <li>Managed and supported web hosting</li>
         </ul>
-		<h4>Amazon Partnerships, Board Member and Technology Specialist<span class="dates">4/12 - 4/13</span></h4>
-		<p>WordPress, HTML5, CSS3, PHP, JavaScript, Photoshop, Social Media</p>
-		<ul>
-			<li>Developed a new WordPress theme and coded dynamic site features using PHP and JavaScript</li>
-			<li>Created new HTML5/CSS3 page templates and updated site content</li>
-			<li>Managed social media presence including Facebook and Twitter</li>
-		</ul>
-		<h4>Volunteer Coordinator, The Nature Conservancy in Washington<span class="dates">9/11 - 7/12</span></h4>
-	</div><!-- section content -->
+	</div>
 </section>
 <section>
 	<div class="section-title">
 		<h3>Education</h3>
-	</div><!-- section title -->
+	</div>
 	<div class="section-content">
-		<h4>Seattle Central Community College<span class="dates">9/12 - current</span></h4>
-		<p>Coursework in web design and development including HTML5, CSS3, JavaScript, object-oriented programing, C#, database integration, PHP, SQL, WordPress, typography, UI/UX design, and Adobe software</p>
+		<h4>Seattle Central Community College<span class="dates">9/12 - 8/13</span></h4>
+		<p>Coursework in web development including HTML5, CSS3, JavaScript, C#, PHP, SQL, WordPress, typography, UI/UX design, and Adobe software</p>
 		<h4>University of Washington, Seattle<span class="dates">Graduated 6/08</span></h4>
 		<p>Bachelor of Science, Aquatic and Fishery Sciences</p>
-	</div><!-- section content -->
+	</div>
 </section>
-</div><!-- content -->
-</div><!-- page -->
+</main>
+<!-- Begin footer include -->
 <div id="footer-bar"></div>
 <footer>
-	<p id="copyright">&copy; <?php echo date("Y"); ?> Julie Edwards</p>
+	<p id="copyright">&copy; 2013-<?php echo date("Y"); ?> Julie Edwards</p>
 </footer>	
 	
 	

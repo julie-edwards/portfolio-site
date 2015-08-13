@@ -1,5 +1,10 @@
 /*RESETS*/
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body, body * {
 	margin:0;
 	padding:0;
@@ -8,16 +13,25 @@ a img{
 	border:0;
 }
 
-/* FONTS */
+/* PAGE */
 
 body{
 	color:#353839;
 }
+.page-width {
+	width:100%;
+	max-width: 960px;
+	margin:0 auto;
+	padding:0 20px;
+}
+
+/* FONTS */
+
 h1{
 	font-family:SourceSansPro-Regular, helvetica, arial, sans-serif;	
 	font-size:3.3em;
-	float:left;
 	font-weight:normal;
+	float:left;
 }
 h1 b{
 	font-family:SourceSansPro-Bold, helvetica, arial, sans-serif;	
@@ -29,14 +43,13 @@ h1 a{
 h2{
 	font-family:SourceSansPro-Bold, helvetica, arial, sans-serif;
 	font-size:1.8em;
-	margin: 20px 0;
 	color:#003461;
 	font-weight:normal;
 	float:left;
+	margin:20px 0;
 }
 h3{
 	font-size:1.4em;
-	margin:0px 13.63636363%;
 	font-family:SourceSansPro-Semibold, helvetica, arial, sans-serif;
 	color:#003461;
 	font-weight:normal;
@@ -117,25 +130,9 @@ ul{
 a{
 	text-decoration:none;
 }
-#content li a, #content p a{
+main li a, main p a{
 	color:#003461;
 	text-decoration:underline;
-}
-
-/* HEADER */
-
-header{
-	width:95.78%;
-	max-width:940px;
-	margin:0 auto;
-	padding:0 2.126%;
-}
-#nav-bar{
-	background-color:#003461;
-	overflow:hidden;
-	margin-bottom:10px;
-	width:100%;
-	clear:both;
 }
 
 /* SPRITES */
@@ -176,19 +173,21 @@ header{
 
 /* MAIN NAV */
 
-#header-nav{
-	width:95.78%;
-	max-width:940px;
-	margin:0 auto;
-	padding:0 2.126%;
+header nav{
+    background-color: #003461;
+    margin-bottom: 10px;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    clear: both;
+    overflow: hidden;
 }
 
-#header-nav ul{
+header nav ul{
 	list-style-type:none;
 	float:right;
 }
 
-#header-nav li{
+header nav li{
 	font-family: SourceSansPro-Regular, helvetica, arial, sans-serif;
 	font-size: 1em;
 	text-transform: lowercase;
@@ -198,25 +197,20 @@ header{
 	margin-bottom: 1px;
 }
 
-#header-nav li a{
+header nav a{
 	color:white;
 }
 
-#header-nav li a:hover,
-#header-nav li a:focus,
-#header-nav li.current-menu-item a{
+header nav a:hover,
+header nav a:focus,
+header nav .current-menu-item a{
 	color:#ffb521;	
 }
 
 /* CONTENT AREA */
 
-#content{
-	clear:both;
-	width:95.78%;
-	max-width:940px;
+main{
 	margin:0 auto 30px;
-	padding:0 2.126%;
-	overflow:hidden;
 }
 section{
 	width: 100%;
