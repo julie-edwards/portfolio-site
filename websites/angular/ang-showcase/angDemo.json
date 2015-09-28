@@ -1,0 +1,36 @@
+[{
+	"category": "microsites"{
+		"blurb": "Digital studio can create websites in a wide variety of formats and scopes including HTML and Flash sites.",
+		"id": "microsites",
+		"items": {
+			"0": {
+				"name": "Brand Drops",
+				"image": "branddrops.jpg",
+				"link": "http://brand-drops.com/",
+				"description": "We created this single-page design scrolling website to promote our April Fool's joke about scented rain. The site includes high quality graphics and charts explaining the science behind this fake marketing site."
+				},
+			"1": {
+				"name": "Brand Drops",
+				"image": "branddrops.jpg",
+				"link": "http://brand-drops.com/",
+				"description": "We created this single-page design scrolling website to promote our April Fool's joke about scented rain. The site includes high quality graphics and charts explaining the science behind this fake marketing site."
+				}
+		}
+	},
+	"category": "Social Media",
+		"blurb": "We can sample and display social media content through Twitter, Facebook, Instigram and other platforms based on content providers or hashtags. The conversation can be displayed within a microsite, ad, or app.",
+		"items": {
+			"0": {
+				"name": "Brand Drops",
+				"image": "branddrops.jpg",
+				"link": "http://brand-drops.com/",
+				"description": "This social is a great example"
+				},
+			"1": {
+				"name": "Brand Drops",
+				"image": "branddrops.jpg",
+				"link": "http://brand-drops.com/",
+				"description": "This social is a great example too!"
+				}
+		}
+}]

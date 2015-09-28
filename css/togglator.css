@@ -24,14 +24,9 @@
 /* rotation angle, direction, and duration */
 .open .rotate{   
     -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 .animate{
-    -moz-transition:-moz-transform .4s;
     -webkit-transition:-webkit-transform .4s;
-    -o-transition:-o-transform .4s;
     transition:transform .4s;
 }

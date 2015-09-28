@@ -1,0 +1,38 @@
+@media screen and (max-width: 700px) {
+	
+	.section-title,
+	.section-content,
+	.about-photo,
+	.about-info{
+		width:100%;
+	}
+	.col2{
+		width:42.84489%;
+		float:left;
+	}
+	.col2:last-of-type{
+		width:54.2981%;
+		float:right;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	header nav ul {
+		float:left;
+	}
+	.col2,
+	.col2:last-of-type {
+		width:100%;
+		float:left;
+	}
+	.social-sprites {
+		float: left;
+		margin: 0 0 16px 0;
+		padding: 0;
+		clear:both;
+	}
+	.social-sprites li {
+		margin:0 20px 0 0;
+	}
+}

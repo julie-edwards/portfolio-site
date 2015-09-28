@@ -1,50 +1,49 @@
 Julie Edwards
-Front-End Web Developer
+Web Developer
 
-julie-edwards.com
+-Contact-
+
 julie@julie-edwards.com
-360 259-9559
-
---- Skills ---
-
-Languages - HTML5, CSS3, JavaScript, jQuery, PHP, SQL
-
-Tools - Git/GitHub, Adobe Photoshop, Adobe Illustrator
-
-Expertise - Cross-browser and cross-platform compatibility, responsive, SEO, Chrome extensions, Wordpress
+julie-edwards.com
 
 
---- Experience ---
+-Skills-
 
-Nordstrom Direct, Interactive Web Developer (contract, The Creative Group) 11/13 - 1/14
-HTML5, CSS3, JavaScript, jQuery, Chrome Extensions, Git, Photoshop
-Created and published new customer facing content and updated existing pages with HTML, CSS, and JS
-Planned and developed a Chrome extension internal tool to help manage and assign work orders
-
-Sound Soups, Front End Web Developer  6/13 - 9/13
-HTML5, CSS3, PHP, jQuery, SEO, Responsive Design, Illustrator, Photoshop
-Designed and created fully responsive and mobile friendly website
-Wrote a jQuery toggle panel plugin and other functions to organize and display site information
-
-Dailey Guitars, Front End Web Developer  3/13 - 6/13
-WordPress, HTML5, CSS3, PHP, jQuery, SEO, Illustrator, Photoshop
-Developed a fully hand-coded custom WordPress theme using PHP, HTML5, and JavaScript
-Designed and produced original logo and branding
-
-Amazon Partnerships, Board Member and Technology Specialist  4/12 - 4/13
-WordPress, HTML5, CSS3, PHP, JavaScript, Photoshop, Social Media
-Developed a new WordPress theme and coded dynamic site features using PHP and JavaScript
-Created new HTML5/CSS3 page templates and updated site content
-Managed social media presence including Facebook and Twitter
-
-The Nature Conservancy in Washington, Volunteer Coordinator  9/11 - 7/12
+Languages - HTML5, CSS3, JavaScript, jQuery, SQL
+Proficiencies - Cross-browser and cross-platform compatibility; CSS, JavaScript, and Canvas animations; Responsive design; Chrome extensions
 
 
---- Education ---
+-Experience-
 
-Seattle Central Community College  9/12 - current
-Coursework in web design and development including HTML5, CSS3, JavaScript, object-oriented programing, C#, database integration, PHP, SQL, WordPress, typography, UI/UX design, and Adobe software
+Publicis Seattle, Developer  4/14 - current
+HTML5, CSS3, JavaScript, jQuery, Chrome extensions, Photoshop
+Hand coded optimized banner ads using CSS, JavaScript, and canvas animations
+Created a banner ad automation script that, for multiple ad sizes and layouts:
+-  Lays out ad components	
+-  Sets font sizes and justifies text
+-  Writes and adjusts CSS animations 
+-  Identifies unique characters and requests the font subset
+-  Reduces the build time by over 50%
+Designed and coded showcase websites for our team in AngularJS
+Developed a Chrome extension tool to help publish ads through DoubleClick
+
+Nordstrom Direct, Interactive Web Developer (contract)  11/13 - 1/14
+HTML5, CSS3, JavaScript, jQuery, Chrome extensions, Git, Photoshop
+Created and published new customer facing content 
+Maintained and updated existing pages 
+Codeveloped a Chrome extension to help manage and assign work orders within GoToAssist
+
+Freelance Web Developer  3/13 - 10/13
+HTML5, CSS3, PHP, jQuery, WordPress, SEO, Responsive design, Illustrator, Photoshop
+Developed fully hand-coded websites
+Designed original logos and branding
+Managed and supported web hosting
+
+
+-Education-
+
+Seattle Central Community College  9/12 - 8/13
+Coursework in web development including HTML5, CSS3, JavaScript, C#, PHP, SQL, WordPress, typography, UI/UX design, and Adobe software
 
 University of Washington, Seattle  Graduated 6/08
 Bachelor of Science, Aquatic and Fishery Sciences
-

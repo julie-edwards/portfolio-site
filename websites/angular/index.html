@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML>
+<html ng-app="angDemo">
+<head>
+    <title>Julie Edwards - Angular Demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        angular.module("angDemo", []);
+    </script>
+    <script src="js/controller.js"></script>
+    <script src="js/directive.js"></script>
+    
+</head>
+
+<body ng-controller="angDemoCtrl">
+    <div class="top-bar"></div>
+    <div id="page">
+        <img src="navLogo.gif">
+        <h1>Angular Demo</h1>
+        <p class="blurb1">
+            Digital studio can bring your ideas and designs for your next client project to life. Read on to see examples of our capabilities.
+        </p>
+        <nav>
+            <ul>
+                <li ng-repeat="item in data.categories"><a href="#{{item.id}}">{{item.name}}</a></li>
+            </ul>
+        </nav>
+
+        <div ng-repeat="category in data.categories" class="category">
+            <h2 id="{{category.id}}">{{category.name}}</h2>
+            <p class="blurb2">
+                {{category.blurb}}
+            </p>
+
+            <!-- full block template -->
+            <div ng-if="category.type == 'fullblock'" ng-repeat="item in category.items" class="full-block-img"> 
+                <a ng-if="item.shadowbox" href="{{item.link}}" rel="shadowbox;width={{item.width}};height={{item.height}}"><img src="images/{{item.image}}"></a>
+                <a ng-if="!item.shadowbox" href="{{item.link}}" target="_blank"><img src="images/{{item.image}}"></a>
+                <div class="img-block-text">
+                    <h3>
+                        <a ng-if="item.shadowbox" href="{{item.link}}" rel="shadowbox;width={{item.width}};height={{item.height}}">{{item.name}}</a>
+                        <a ng-if="!item.shadowbox" href="{{item.link}}" target="_blank">{{item.name}}</a>
+                    </h3>
+                    <p>
+                        {{item.description}}
+                    </p>
+                </div>
+                
+            </div>
+
+            <!-- tile block template -->
+            <div ng-if="category.type == 'tileblock'" ng-repeat="item in category.items" class="tile-block">
+                <h3>
+                    <a href="{{item.link}}" target="_blank" ng-rel="makeUrl(item)">{{item.name}}</a>
+                </h3>
+                <a ng-if="item.shadowbox" href="{{item.link}}" rel="shadowbox;width={{item.width}};height={{item.height}}"><img src="images/{{item.image}}"></a>
+                <a ng-if="!item.shadowbox" href="{{item.link}}" target="_blank"><img src="images/{{item.image}}"></a>
+            </div>
+
+            <!-- tile frame template -->
+            <div ng-if="category.type == 'tileframe'" ng-repeat="item in category.items" class="tile-block">
+                <h3>
+                    {{item.name}}
+                </h3>
+                <iframe seamless="seamless" scrolling="no" src="{{item.link}}" width="300" height="250" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
