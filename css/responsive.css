@@ -1,9 +1,7 @@
 @media screen and (max-width: 700px) {
 	
 	.section-title,
-	.section-content,
-	.about-photo,
-	.about-info{
+	.section-content{
 		width:100%;
 	}
 	.col2{
@@ -25,6 +23,10 @@
 	.col2:last-of-type {
 		width:100%;
 		float:left;
+	}
+	.about-photo,
+	.about-info{
+		width:100%;
 	}
 	.social-sprites {
 		float: left;

@@ -5,51 +5,6 @@ include 'include/header.php';
 <h2>Scripts</h2>
 <section>
 	<div class="section-title">
-		<h3>Character Subset</h3>
-	</div>
-	
-	<div class="section-content">
-		<p>Subset!</p>
-		<textarea id="subsetInput"></textarea>
-		<div id="subsetButton" class="button">Subset</div>
-		<p><label for="subsetOutput">Character Set: </label></p><input type="text" id="subsetOutput">
-		<p><label for="subsetOutputUri">URI encoded Set: </label></p><input type="text" id="subsetOutputUri">
-		<p id="spCharUnknownOutput"></p>
-		<div class="togglator-code togglator" title="View JavaScript">
-			<pre class="code">
-				<code data-language="JavaScript">
-JS!				
-				</code>
-			</pre>
-		</div>
-	</div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section>
-	<div class="section-title">
 		<h3>Togglator</h3>
 	</div>
 	<div class="section-content">
@@ -179,6 +134,52 @@ $(document).ready(function(){
 		<p>See more examples of <a target="_blank" href="/togglator/">togglator settings</a><br />
 		Fork this on <a href="https://github.com/julie-edwards/togglator" target="_blank">GitHub</a><br />
 	</div>
+</section>
+<section>
+    <div class="section-title">
+        <h3>Character Subset</h3>
+    </div>
+    
+    <div class="section-content">
+        <p>Subsetting webfonts can be a great way to optimize performance and decrease load times. This script finds unique characters in text and outputs them as a string and a URI encoded string for a font request link. Try subsetting some text below.</p>
+        <textarea id="subsetInput"></textarea>
+        <div id="subsetButton" class="button">Subset</div>
+        <p>Character Set:</p><input type="text" id="subsetOutput">
+        <p>URI encoded Set:</p><input type="text" id="subsetOutputUri">
+        <p id="spCharUnknownOutput"></p>
+        <div class="togglator-code togglator" title="View JavaScript">
+            <pre class="code">
+                <code data-language="JavaScript">
+<!--
+function makeSubset() {
+
+    var subsetOutput = document.getElementById("subsetOutput");
+    var subsetOutputUri = document.getElementById("subsetOutputUri");
+    var myText = document.getElementById("subsetInput").value;
+    var myCharacters = {};
+    var mySubset = "";
+    var mySubsetUri;
+
+    //force all characters into AA to delete duplicates, then to string
+    for (i=0; i<myText.length; i++){
+        myCharacters[myText[i]] = true;
+    }
+    for (var key in myCharacters){
+        mySubset += key;
+    }
+
+    //encode characters
+    mySubsetUri = encodeURIComponent(mySubset); 
+
+    //output subset strings
+    subsetOutput.value = mySubset;
+    subsetOutputUri.value = mySubsetUri;
+}
+-->         
+                </code>
+            </pre>
+        </div>
+    </div>
 </section>
 <section>
 	<div class="section-title">
