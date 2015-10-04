@@ -10,13 +10,13 @@ julie-edwards.com
 -Skills-
 
 Languages - HTML5, CSS3, JavaScript, jQuery, SQL
-Proficiencies - Cross-browser and cross-platform compatibility; CSS, JavaScript, and Canvas animations; Responsive design; Chrome extensions
+Proficiencies - Cross-browser and cross-platform compatibility; CSS, JavaScript, and Canvas animations; responsive design; Chrome extensions; version control; Adobe Suite
 
 
 -Experience-
 
 Publicis Seattle, Developer  4/14 - current
-HTML5, CSS3, JavaScript, jQuery, Chrome extensions, Photoshop
+HTML5, CSS3, JavaScript, jQuery, Chrome extensions, Git, Photoshop
 Hand coded optimized banner ads using CSS, JavaScript, and canvas animations
 Created a banner ad automation script that, for multiple ad sizes and layouts:
 -  Lays out ad components	

@@ -92,7 +92,7 @@ p, ol, ul, label, textarea, input, .button{
 	font-family:Helvetica, Arial, sans-serif;
 	line-height:1.35;
 }
-ul + p, ol + p, dl + p, p + p {
+ul + p, ol + p, dl + p, p + p, p + textarea {
 	margin-top:20px;
 }
 p + ul{

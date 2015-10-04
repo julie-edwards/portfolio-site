@@ -13,7 +13,7 @@ include 'include/header.php';
 	</div>
 	<div class="section-content">
 		<p><span class="skill">Languages</span> - HTML5, CSS3, JavaScript, jQuery, SQL</p>
-		<p><span class="skill">Proficiencies</span> - Cross-browser and cross-platform compatibility; CSS, JavaScript, and Canvas animations; Responsive design; Chrome extensions</p>
+		<p><span class="skill">Proficiencies</span> - Cross-browser and cross-platform compatibility; CSS, JavaScript, and Canvas animations; responsive design; Chrome extensions; version control; Adobe Suite</p>
 	</div>
 </section>
 <section>
@@ -22,7 +22,7 @@ include 'include/header.php';
 	</div>
 	<div class="section-content">
 	    <h4>Publicis Seattle, Developer<span class="dates"> 4/14 - current</span></h4>
-        <p>HTML5, CSS3, JavaScript, jQuery, Chrome extensions, Photoshop</p>
+        <p>HTML5, CSS3, JavaScript, jQuery, Chrome extensions, Git, Photoshop</p>
         <ul>
             <li>Hand coded optimized banner ads using CSS, JavaScript, and canvas animations</li>
             <li>Created a banner ad automation script that, for multiple ad sizes and layouts:</li>
